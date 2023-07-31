@@ -32,3 +32,38 @@ figure {
   float: right;
   clear: right;
 }
+
+ol a {
+  text-decoration: none;
+  color: black
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navigation {
+  width: 50%;
+  margin: auto auto;
+}
+
+ol>ol {
+  padding-left: 40px;
+}
+
+
+li {
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+.nav-title {
+  width: max-content;
+  margin: auto auto;
+}
+
+.tumen {
+  width: 50%;
+  height: 50%;
+}
