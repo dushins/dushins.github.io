@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  margin-top: 1.5em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+table, th, td {
+  border: black 1px solid;
+}
+
+body {
+  width: 70%;
+  margin: auto auto;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+figure {
+  float: right;
+  clear: right;
+}
