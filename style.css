@@ -71,3 +71,6 @@ li {
 .no-show {
   display: none;
 }
+img {
+  float: right;
+}
