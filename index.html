@@ -27,7 +27,7 @@
         Важнейшими объектами для экономики и инфраструктуры города являются космический центр
         имени Линдона Джонсона, крупнейший американский по международным грузоперевозкам порт,
         хьюстонский судоходный канал, крупнейший в мире Техасский медицинский центр.</p>
-        <h3 class="nav-title">Содержание</h3>
+    <h3 class="nav-title">Содержание</h3>
     <div class="navigation">
         <ol>
             <a href="#his0">
@@ -655,19 +655,35 @@
 
     <script>
         let titlePage = document.querySelector('.houston');
-        titlePage.addEventListener('click', function(e) {
+        let titlePreview = document.querySelector('.title-preview');
+
+        titlePage.addEventListener('click', function (e) {
             e.preventDefault;
 
             if (!document.querySelector('.tumen')) {
-                let titlePreview = document.querySelector('.title-preview');
                 let img = document.createElement('img');
                 img.setAttribute('class', 'tumen');
                 img.setAttribute('src', 'img/tumen.jpg');
                 titlePreview.appendChild(img);
+            } else {
+                titlePreview.removeChild(document.querySelector('.tumen'));
             }
         })
     </script>
+    <script>
+        let tittleNav = document.querySelector('.nav-title');
+        let nav = document.querySelector('.navigation');
 
+        tittleNav.addEventListener('click', function (e) {
+            e.preventDefault;
+
+            if (nav.classList.contains('no-show')) {
+                nav.classList.remove('no-show');
+            } else {
+                nav.classList.add('no-show');
+            }
+        });
+    </script>
 </body>
 
 </html>

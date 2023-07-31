@@ -67,3 +67,7 @@ li {
   width: 50%;
   height: 50%;
 }
+
+.no-show {
+  display: none;
+}
