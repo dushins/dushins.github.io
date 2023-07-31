@@ -31,6 +31,7 @@ figcaption {
 figure {
   float: right;
   clear: right;
+  text-align: right;
 }
 
 ol a {
@@ -71,6 +72,4 @@ li {
 .no-show {
   display: none;
 }
-img {
-  float: right;
-}
+
