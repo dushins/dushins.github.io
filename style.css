@@ -1,75 +1,100 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Arial, sans-serif;
-  margin-top: 1.5em;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  font-family: Roboto;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 32px;
+.header {
+  background-color: rgba(0, 119, 101, 1);
 }
 
-table,
-th,
-td {
-  border: black 1px solid;
-}
-
-body {
-  width: 70%;
+.conteiner {
+  width: 60%;
   margin: auto auto;
-  text-align: justify;
 }
 
-figcaption {
-  font-style: italic;
+.header_content {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
-figure {
-  float: right;
-  clear: right;
-  text-align: right;
-}
-
-ol a {
+.header_nav>a {
+  color: white;
   text-decoration: none;
-  color: black
+  margin-left: 5px;
 }
 
-ol {
-  list-style-type: none;
-  padding-left: 0;
+.header_nav>a:first-child {
+  margin-left: 0px;
 }
 
-.navigation {
-  width: 50%;
-  margin: auto auto;
+.header_nav {
+  display: flex;
+  align-items: center;
 }
 
-ol>ol {
-  padding-left: 40px;
+.header_logo {
+  width: 9vw;
 }
 
-
-li {
-  margin: 5px 0px;
-  padding: 5px;
+.main_slogan {
+  padding: 160px 0px;
+  background: url('img/slogan.png');
+  margin-bottom: 20px;
 }
 
-.nav-title {
-  width: max-content;
-  margin: auto auto;
+.slogan_text {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+
 }
 
-.tumen {
-  width: 50%;
-  height: 50%;
+.the_problem h1 {
+  color: rgba(0, 119, 101, 1);
+  text-align: center;
+  font-size: 50px;
 }
 
-.no-show {
-  display: none;
+.the_problem p {
+  font-size: 15px;
+  margin: 16px 0px 0px 0px;
 }
 
+.the_problem p span {
+  font-weight: 700;
+
+}
+
+.second_slogan {
+  background: url('img/image.png');
+  margin: 20px 0px;
+}
+
+.second_slogan_text {
+  color: white;
+  text-align: center;
+  margin: 16 0 0 0;
+  margin-bottom: 20;
+  padding: 160px 250px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.intrTitle {
+  color: rgba(0, 119, 101, 1);
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.intrTitle {
+  text-align: center;
+  font-size: 60px;
+  margin: 16px 0 0 0;
+}
