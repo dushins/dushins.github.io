@@ -80,7 +80,7 @@
   text-align: center;
   margin: 16 0 0 0;
   margin-bottom: 20;
-  padding: 160px 250px;
+  padding: 160px 0;
   font-size: 50px;
   font-style: italic;
   font-weight: 500;
@@ -92,9 +92,16 @@
   font-weight: 500;
 
 }
-
-.intrTitle {
+figcaption{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+}
+figure{
+  float: left;
+}
+.intrText{
+  color:blue;
   text-align: center;
-  font-size: 60px;
-  margin: 16px 0 0 0;
+  font-size: 32.5px;
 }
