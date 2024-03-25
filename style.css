@@ -67,11 +67,11 @@
 
 .the_problem p span {
   font-weight: 700;
-
 }
 
 .second_slogan {
   background: url('img/image.png');
+  size: 20%;
   margin: 20px 0px;
 }
 
@@ -87,21 +87,52 @@
 }
 
 .intrTitle {
-  color: rgba(0, 119, 101, 1);
-  text-align: center;
+  color: #007765;
   font-weight: 500;
-
+  text-align: center;
 }
-figcaption{
+figcaption  {
   font-style: italic;
   font-weight: 400;
   font-size: 30px;
 }
-figure{
+figure  { 
   float: left;
 }
-.intrText{
-  color:blue;
+.intextimg {
+  float: left;
+}
+.intrText p {
+  margin: 16px 0px 0px 0px;
+}
+.intextimg img{
+  width: 50px;
+  height: 50px;
+  top: 50px;
+}
+.footer{
+  background: rgba(238, 238, 238, 1);
+  padding: 60px;
+}
+.foothead{
   text-align: center;
-  font-size: 32.5px;
+  color: rgba(0, 119, 101, 1);
+}
+.teamgallery img{
+  width: 250px;
+  height: 220px;
+}
+.ending{
+  background: rgba(51, 51, 51, 1);
+}
+.endingtext{
+  color: white;
+  text-align: center;
+  font-size: 9px;
+  width: 20%;
+  margin: auto auto;
+  padding: 15px;
+}
+.intrText{
+  padding: 40px;
 }
