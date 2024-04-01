@@ -118,10 +118,6 @@ figure  {
   text-align: center;
   color: rgba(0, 119, 101, 1);
 }
-.teamgallery img{
-  width: 250px;
-  height: 220px;
-}
 .ending{
   background: rgba(51, 51, 51, 1);
 }
@@ -135,4 +131,39 @@ figure  {
 }
 .intrText{
   padding: 40px;
+}
+.teamgallery h1{
+  color: rgba(0, 119, 101, 1);
+  font-size: medium;
+
+}
+.teamgallery p{
+  font-style: italic;
+  font-weight: 100;
+  font-size: small;
+}
+.teamgallery{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.photo1{
+  width: 30%;
+}
+.photo2{
+  width: 30%;
+}
+.photo3{
+  width: 30%;
+}
+.photo4{
+  width: 30%;
+}
+.photo5{
+  width: 30%;
+}
+.photo6{
+  width: 30%;
 }
